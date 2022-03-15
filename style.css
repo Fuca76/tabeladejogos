@@ -1,0 +1,76 @@
+@charset"UTF-8";
+@font-face {
+    font-family: "Gamer";
+    src: url('./fonte/GAME\ ROBOT.otf') format('opentype');
+    font-weight: normal;
+}
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 400px;
+    background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/01/neon-wallpaper-210124012455531400x1050.jpg");
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  
+  div > button:hover{
+      color:rgba(13, 255, 0, 0.713);
+  }
+  #resetarJogo:hover{
+      color: rgb(218, 11, 11);
+  }
+  
+  table {
+    border: 2px solid rgb(201, 188, 188);
+    border-collapse: collapse;
+  }
+  
+  h1 {
+      font-family: "Gamer" ,cursive;
+    color: rgb(169, 223, 196);
+  }
+ 
+  th,
+  tr,
+  td {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 5px rgba(16, 105, 177, 0.96);
+    color: rgba(247, 245, 234, 0.885);
+  }
+  
